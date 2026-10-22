@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+}
+
+.logo{
+    display: block;
+    margin-inline: auto;
+    width: 300px;
+}
+
+main{
+    display: block;
+    margin-inline: auto;
+    width: 50%;
+}
+
+table{
+     border: 2px solid rgb(185, 176, 176);
+     background-color: rgb(199, 203, 207);
+     padding: 20px; 
+}
+
+.col1{  
+width: 250px;
+
+}
+
+.col2{
+    width: 230px;
+
+}
+
+.col1,.col2{
+     height: 18px;
+     padding: 10px;
+}
+
+
+.reserva {
+    width: 430px;
+    margin: 0 auto;
+}
+
+
+/* Títulos */
+h1 {
+    font-size: 18px;
+    color: #e60000;
+    margin: 18px 0 12px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 18px;
+    color: #e60000;
+    margin: 22px 0 12px;
+    text-transform: uppercase;
+}
+
+/* Bloques grises */
+.info-box {
+    background: #e5e5e5;
+    padding: 12px 15px;
+    margin-bottom: 18px;
+}
+
+.info-row {
+    display: flex;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.info-row .label {
+    width: 125px;
+}
+
+.info-row .value {
+    font-weight: bold;
+}
+
+
+/* Logo */
+.qr {
+    display: inline;
+    float:left;
+    margin-bottom: 15px;
+    width: 100px;
+}
+
+.centrado{
+    text-align: center;
+}
+.rojo{
+    color:#e60000;
+}
+
+.t3{
+    background-color: white;
+    border: none;
+
+}
+
+.t3 td{
+    padding: 10px;
+}
+
+.t3-col1{
+    width: 120px;
+}
+
+.t3-col2{
+    width: 150px;
+}
+
+.t3-col3{
+    width: 100px;
+}
+
+.t3-col4{
+    width: 140px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.t4{
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 10px;
+    background-color:white;
+    border: none;
+}
+.t4-col1{
+    width: 190px;
+    padding:20px;
+}
+.t4-col2{
+    text-align: right;
+    width: 70px;
+    padding-right: 20px;
+
+    
+}
